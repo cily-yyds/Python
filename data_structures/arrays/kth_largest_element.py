@@ -10,8 +10,8 @@ def partition(arr: list[int], low: int, high: int) -> int:
     Partitions list based on the pivot element.
 
     This function rearranges the elements in the input list 'elements' such that
-    all elements greater than or equal to the chosen pivot are on the right side
-    of the pivot, and all elements smaller than the pivot are on the left side.
+    all elements greater than or equal to the chosen pivot are on the left side
+    of the pivot, and all elements smaller than the pivot are on the right side.
 
     Args:
         arr: The list to be partitioned
